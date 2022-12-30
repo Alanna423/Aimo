@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Aimo.props" />
+</Project>
