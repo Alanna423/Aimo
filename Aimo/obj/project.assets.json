@@ -11374,24 +11374,26 @@
     ]
   },
   "packageFolders": {
-    "/Users/admin1/.nuget/packages/": {}
+    "C:\\Users\\elhuang04\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/admin1/projects/Aimo/Aimo/Aimo.csproj",
+      "projectUniqueName": "C:\\Users\\elhuang04\\Source\\Repos\\Aimo\\Aimo\\Aimo.csproj",
       "projectName": "Aimo",
-      "projectPath": "/Users/admin1/projects/Aimo/Aimo/Aimo.csproj",
-      "packagesPath": "/Users/admin1/.nuget/packages/",
-      "outputPath": "/Users/admin1/projects/Aimo/Aimo/obj/",
+      "projectPath": "C:\\Users\\elhuang04\\Source\\Repos\\Aimo\\Aimo\\Aimo.csproj",
+      "packagesPath": "C:\\Users\\elhuang04\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\elhuang04\\Source\\Repos\\Aimo\\Aimo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/admin1/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\elhuang04\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -11458,7 +11460,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

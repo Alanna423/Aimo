@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Aimo.Models;
 using Aimo.Data;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -37,7 +38,7 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Joker}/{action=Index}/{id?}");
 app.MapRazorPages();
 
 app.Run();
