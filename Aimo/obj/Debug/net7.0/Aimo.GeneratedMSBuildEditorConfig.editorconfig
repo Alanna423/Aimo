@@ -20,24 +20,24 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/admin1/projects/Aimo/Aimo/Views/ExploreContoller/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXhwbG9yZUNvbnRvbGxlci9DcmVhdGUuY3NodG1s
+[/Users/admin1/projects/Aimo/Aimo/Views/Explorer/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXhwbG9yZXIvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/admin1/projects/Aimo/Aimo/Views/ExploreContoller/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXhwbG9yZUNvbnRvbGxlci9EZWxldGUuY3NodG1s
+[/Users/admin1/projects/Aimo/Aimo/Views/Explorer/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXhwbG9yZXIvRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/admin1/projects/Aimo/Aimo/Views/ExploreContoller/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXhwbG9yZUNvbnRvbGxlci9EZXRhaWxzLmNzaHRtbA==
+[/Users/admin1/projects/Aimo/Aimo/Views/Explorer/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXhwbG9yZXIvRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/admin1/projects/Aimo/Aimo/Views/ExploreContoller/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXhwbG9yZUNvbnRvbGxlci9FZGl0LmNzaHRtbA==
+[/Users/admin1/projects/Aimo/Aimo/Views/Explorer/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXhwbG9yZXIvRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/admin1/projects/Aimo/Aimo/Views/ExploreContoller/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXhwbG9yZUNvbnRvbGxlci9JbmRleC5jc2h0bWw=
+[/Users/admin1/projects/Aimo/Aimo/Views/Explorer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXhwbG9yZXIvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/admin1/projects/Aimo/Aimo/Views/Home/Index.cshtml]

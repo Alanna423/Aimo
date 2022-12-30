@@ -10,16 +10,16 @@ using Aimo.Models;
 
 namespace Aimo.Controllers
 {
-    public class ExploreContoller : Controller
+    public class ExploreController : Controller
     {
         private readonly ApplicationDbContext _context;
 
-        public ExploreContoller(ApplicationDbContext context)
+        public ExploreController(ApplicationDbContext context)
         {
             _context = context;
         }
 
-        // GET: ExploreContoller
+        // GET: Explorer
         public async Task<IActionResult> Index()
         {
               return _context.Explore != null ? 
@@ -27,7 +27,7 @@ namespace Aimo.Controllers
                           Problem("Entity set 'ApplicationDbContext.Explore'  is null.");
         }
 
-        // GET: ExploreContoller/Details/5
+        // GET: Explorer/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Explore == null)
@@ -45,13 +45,13 @@ namespace Aimo.Controllers
             return View(explore);
         }
 
-        // GET: ExploreContoller/Create
+        // GET: Explorer/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: ExploreContoller/Create
+        // POST: Explorer/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
@@ -67,7 +67,7 @@ namespace Aimo.Controllers
             return View(explore);
         }
 
-        // GET: ExploreContoller/Edit/5
+        // GET: Explorer/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Explore == null)
@@ -83,7 +83,7 @@ namespace Aimo.Controllers
             return View(explore);
         }
 
-        // POST: ExploreContoller/Edit/5
+        // POST: Explorer/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
@@ -118,7 +118,7 @@ namespace Aimo.Controllers
             return View(explore);
         }
 
-        // GET: ExploreContoller/Delete/5
+        // GET: Explorer/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Explore == null)
@@ -136,7 +136,7 @@ namespace Aimo.Controllers
             return View(explore);
         }
 
-        // POST: ExploreContoller/Delete/5
+        // POST: Explorer/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
@@ -161,3 +161,4 @@ namespace Aimo.Controllers
         }
     }
 }
+

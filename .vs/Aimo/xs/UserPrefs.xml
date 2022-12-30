@@ -1,32 +1,43 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{A0C0ED5A-42BB-4720-8949-4CA35BD78B17}|https">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.Aimo PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Aimo/Controllers/ExploreContoller.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Aimo/Views/Explorer/Index.cshtml">
     <Files>
-      <File FileName="Aimo/Models/Explore.cs" Line="12" Column="9" />
-      <File FileName="Aimo/Data/Migrations/20221230160953_initial.cs" Line="1" Column="1" />
-      <File FileName="Aimo/Controllers/ExploreContoller.cs" Line="1" Column="1" />
+      <File FileName="Aimo/Views/Explorer/Create.cshtml" />
+      <File FileName="Aimo/Views/Explorer/Delete.cshtml" />
+      <File FileName="Aimo/Views/Explorer/Details.cshtml" />
+      <File FileName="Aimo/Views/Explorer/Edit.cshtml" />
+      <File FileName="Aimo/Views/Explorer/Index.cshtml" Line="4" Column="30" />
+      <File FileName="Aimo/Controllers/ExploreController.cs" Line="163" Column="2" />
+      <File FileName="Aimo/Views/Shared/Error.cshtml" Line="1" Column="1" />
+      <File FileName="Aimo/Views/Shared/_LoginPartial.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Aimo" expanded="True">
             <Node name="Aimo" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="ExploreContoller.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Data" expanded="True">
                 <Node name="Migrations" expanded="True" />
               </Node>
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True" />
+                <Node name="Explorer" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
+                <Node name="Shared" expanded="True" />
               </Node>
             </Node>
           </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
