@@ -1,7 +1,5 @@
-﻿<Properties StartupConfiguration="{A0C0ED5A-42BB-4720-8949-4CA35BD78B17}|https">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{A0C0ED5A-42BB-4720-8949-4CA35BD78B17}|https">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.Aimo PreferredExecutionTarget="/Applications/Google Chrome.app" />
